@@ -1,0 +1,24 @@
+<h1 style="text-align: center;">Hello worlds</h1>
+<div class="row">
+    <form action="/create_product" method="GET" class="col-md-3" style="position: relative">
+        <button type="submit" class="btn btn-primary">CREAT</button>
+    </form>
+
+    <form action="/read_product" method="GET" class="col-md-3" style="position: relative">
+        <button type="submit" class="btn btn-primary">READ</button>
+    </form>
+
+    <form action="/update_product" method="GET" class="col-md-3" style="position: relative">
+        <button type="submit" class="btn btn-primary">UPDATE</button>
+    </form>
+
+    <form action="/delete_product" method="GET" class="col-md-3" style="position: relative">
+        <button type="submit" class="btn btn-primary">DELETE</button>
+    </form>
+    {{#each data}}
+    <p>{{@index}}</p>
+    <p>{{sku}}</p>
+    <p>{{title}}</p>
+    {{/each}}
+
+</div>

@@ -1,0 +1,148 @@
+.XXX {
+    background-color: #1a1919;
+    position: fixed;
+    color: white;
+    font-size: 2.5em;
+    top: 0px;
+    right: 450px;
+    width: 35px;
+    height: 35px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.shopping {
+    background-color: #1a1919;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 70%;
+    width: 450px;
+}
+
+.shopping .cart {
+    margin: 50px;
+    text-align: center;
+}
+
+.shopping .cart img {
+    width: 12%;
+    vertical-align: middle;
+}
+
+.shopping .cart span {
+    color: white;
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+.shopping .cart p {
+    color: white;
+    font-size: 1.5em;
+    margin: 35px;
+}
+
+.subtotal {
+    background-color: #292727;
+    position: fixed;
+    right: 0px;
+    height: 30%;
+    bottom: 0px;
+    width: 450px;
+}
+
+.subtotal .content {
+    color: #5b5a5e;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.subtotal span {
+    color: yellow;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.subtotal .buy {
+    width: 350px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #1a1919;
+    color: white;
+    cursor: pointer;
+    padding: 15px 0px;
+    margin: 50px 50px;
+}
+
+.main {
+    display: flex;
+}
+
+div {
+    display: block;
+}
+
+.selection {
+    width: 20%;
+}
+
+.products {
+    width: 80%;
+}
+
+.checkbox {
+    display: inline-block;
+}
+
+.checkbox label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.checkbox label input {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkbox label .checkmark {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.item {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+}
+
+.item p {
+    margin-top: 1em;
+    height: 50px;
+}
+
+.item .buy-btn {
+    margin-left: 10%;
+    width: 80%;
+    background-color: black;
+    color: white;
+    padding: 15px 0px;
+    margin-top: 10px;
+    cursor: pointer;
+    /* transition: background-color 0.2s; */
+}
